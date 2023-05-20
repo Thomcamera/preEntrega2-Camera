@@ -85,28 +85,29 @@ body {
 .card {
   border: dashed 5px #8a31282d;
   background-color: #ab3428;
-  width: 25rem;
+  width: 30rem;
 }
 
 .card-body {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .card-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: black;
 }
 
 .padre-card {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   align-items: center;
+  gap: 20px;
 }
 
-.card-3 {
+/* .card-3 {
   margin-bottom: 50px;
-}
+} */
 
 .card img {
   width: 300px;
