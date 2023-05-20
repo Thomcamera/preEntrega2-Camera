@@ -1,0 +1,220 @@
+/* GENERAL  */
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Montserrat:ital@1&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+
+.banner {
+  background-color: #ab3428;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.logo {
+  width: 200px;
+  border: ridge #ab3428 15px;
+}
+
+.hijo-banner {
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .hijo-banner {
+    margin-right: 250px;
+  }
+  .hijo-banner h1 {
+    font-size: 3rem;
+  }
+  .hijo-banner h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hijo-banner {
+      display: none;
+  }
+}
+
+/* NAV */
+nav {
+  text-align: center;
+  background-color: #35100d;
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 90px;
+  border: ridge 4px;
+  border-color: black;
+}
+
+nav ul li:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* MAIN INDEX  */
+body {
+  font-family: "Dongle", sans-serif;
+  background-color: #ab3428;
+}
+
+.card {
+  border: dashed 5px #8a31282d;
+  background-color: #ab3428;
+  width: 25rem;
+}
+
+.card-body {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 3rem;
+}
+
+.padre-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-3 {
+  margin-bottom: 50px;
+}
+
+.mas-info {
+  text-align: center;
+  color: black;
+}
+
+.mas-info h2 {
+  font-size: 3rem;
+}
+
+.mas-info h3 {
+  font-size: 2.5rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #35100d;
+  color: goldenrod;
+  position: absolute;
+  font-size: 20px;
+}
+
+footer h4 {
+  margin-left: 20px;
+}
+
+/* MENU PLATOS  */
+.menu-padre {
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.menu-carta h2 {
+  font-size: 2.5rem;
+  color: black;
+  gap: 10px;
+  text-decoration: underline;
+}
+
+.menu-carta ul {
+  list-style: none;
+}
+
+
+/* RESERVAS 
+.reservas {
+  display: inline-block;
+  position: relative;
+  margin-top: 40px;
+}
+
+.reservas h1 {
+  text-align: center;
+  position: inherit;
+  left: 350px;
+}
+
+.reservas-art {
+  background-color: #ab3428;
+  width: 500px;
+  height: 200px;
+  padding: 25px;
+  position: relative;
+  border: dashed 5px #35100d;
+  left: 200px;
+}
+
+.reservas-art img {
+  position: inherit;
+  bottom: 210px;
+  left: 600px;
+}
+
+/* TRABAJA CON NOSOTROS  */
+/* form {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.trabaja {
+  text-align: center;
+}
+
+.trabaja2 {
+  text-align: center;
+  justify-content: center;
+}
+
+#habilidades {
+  display: block;
+  position: inherit;
+  left: 550px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* GALERIA  */
+/* .galeria img {
+  width: 300px;
+  margin: 40px 30px 40px 80px;
+}
+
+.galeria iframe {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-left: 360px;
+}  */
+
+/*# sourceMappingURL=styles.css.map */
