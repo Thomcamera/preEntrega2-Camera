@@ -9,7 +9,6 @@
 
 /* HEADER */
 
-
 .banner {
   background-color: #ab3428;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -102,6 +101,7 @@ body {
   width: 300px;
 }
 
+/*SECCION INFO*/
 .mas-info {
   text-align: center;
   color: black;
@@ -146,7 +146,6 @@ body {
   width: 35px;
 }
 
-
 /* FOOTER */
 footer {
   background-color: #35100d;
@@ -159,7 +158,7 @@ footer h4 {
   margin-left: 20px;
 }
 
-/* MENU PLATOS  */
+/* MENU MAIN  */
 .menu-padre {
   justify-content: center;
   text-align: center;
@@ -176,6 +175,5 @@ footer h4 {
 .menu-carta ul {
   list-style: none;
 }
-
 
 /*# sourceMappingURL=styles.css.map */
