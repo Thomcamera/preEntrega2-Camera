@@ -117,6 +117,36 @@ body {
   color: black;
 }
 
+/*REDES*/
+.padre-redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .padre-redes {
+      flex-direction: column;
+      position: fixed;
+      top: 40%;
+      right: 2%;
+  }
+
+  .titulo-redes {
+      display: none;
+  }
+}
+
+.titulo-redes {
+  text-align: center;
+  justify-content: center;
+}
+
+.redes {
+  width: 35px;
+}
+
+
 /* FOOTER */
 footer {
   background-color: #35100d;
