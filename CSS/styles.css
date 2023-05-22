@@ -83,6 +83,9 @@ body {
 
 .padre-card {
   gap: 15px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .card {
