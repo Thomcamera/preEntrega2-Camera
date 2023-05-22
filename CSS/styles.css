@@ -81,10 +81,18 @@ body {
   background-color: #ab3428;
 }
 
+.padre-card {
+  gap: 15px;
+}
+
 .card {
-  border: dashed 5px #8a31282d;
+  border: solid 5px #ab33286c;
   background-color: #ab3428;
   width: 26rem;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+  box-shadow: 0px 0px 17px 0px rgba(15, 14, 14,1);
+  padding: 5px;
 }
 
 .card-body {
@@ -102,9 +110,11 @@ body {
 }
 
 /*SECCION INFO*/
+
 .mas-info {
   text-align: center;
   color: black;
+  padding: 50px;
 }
 
 .mas-info h2 {
@@ -163,11 +173,19 @@ footer h4 {
 .menu-padre {
   justify-content: center;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  margin: 0 auto;
+}
+
+.menu-carta {
+  border: solid 5px #ab33286c; 
+  -webkit-box-shadow: 1px 0px 17px 0px rgba(15, 14, 14,1);
+  -moz-box-shadow: 1px 0px 17px 0px rgba(15, 14, 14,1);
+  box-shadow: 1px 0px 17px 0px rgba(15, 14, 14,1);
 }
 
 .menu-carta h2 {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   color: black;
   gap: 10px;
   text-decoration: underline;
